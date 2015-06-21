@@ -239,6 +239,11 @@ var sharedCreateFlags = []cli.Flag{
 
 var Commands = []cli.Command{
 	{
+		Name:	"PrintDriverFlags",
+		Usage:	"Print all Driver Flags in JSON",
+		Action: cmdPrintDriverFlags,
+	},
+	{
 		Name:   "active",
 		Usage:  "Print which machine is active",
 		Action: cmdActive,
