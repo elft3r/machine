@@ -239,7 +239,7 @@ var sharedCreateFlags = []cli.Flag{
 
 var Commands = []cli.Command{
 	{
-		Name:	"PrintDriverFlags",
+		Name:	"print-driver-flags",
 		Usage:	"Print all Driver Flags in JSON",
 		Action: cmdPrintDriverFlags,
 	},
